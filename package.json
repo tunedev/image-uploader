@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./build/index.js",
+    "build": "tsc",
     "dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
     "create-table": "ts-node ./src/database/createTable.ts",
     "drop-table": "ts-node ./src/database/dropTable.ts",
